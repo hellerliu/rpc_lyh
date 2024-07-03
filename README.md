@@ -1,6 +1,8 @@
 # demo说明：
 
-    以任意顺序启动rpc_manager(只能单一，服务注册发现中心),rpc_server(只能单一，请求应答rpc的服务端和订阅发布topic的发布端)，rpc_client(可多个，请求应答rpc的客户端和订阅发布topic的订阅端)。
+自动驾驶通信中间件，通信模型支持订阅发布和请求应答，通信方式为tcp、UNIX Domain Socket、共享内存。c++17语言编写。
+
+以任意顺序启动rpc_manager(只能单一，服务注册发现中心),rpc_server(只能单一，请求应答rpc的服务端和订阅发布topic的发布端)，rpc_client(可多个，请求应答rpc的客户端和订阅发布topic的订阅端)。
 
 # 功能如下：
 
