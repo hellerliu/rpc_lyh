@@ -1,0 +1,10 @@
+syntax = "proto2";
+package test;
+
+message echoReq {
+  required uint32 req = 1;
+};
+
+message echoResp {
+  required uint32 resp = 1;
+};
